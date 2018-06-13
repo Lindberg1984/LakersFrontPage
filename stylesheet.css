@@ -22,6 +22,8 @@ body {
 	border-radius: 16px;
 }
 
+/* Menu and Nav bar settings begin here! */
+
 .menu {
 	height: 100px;
 	background-color: #2d045b;
@@ -78,6 +80,8 @@ body {
 .nav ul li:hover ul li {
 	display: block;
 }
+
+/* Main body, footer and logo settings begin here */
 
 .mainbody {
 	margin: 0 auto;
