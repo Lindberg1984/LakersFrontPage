@@ -1,0 +1,99 @@
+body {
+	margin: 0;
+	background: black;
+}
+
+.container {
+   width: 800px;
+   height: auto;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 11px;
+   margin-bottom: 21px;
+}
+
+.header {
+	height: 150px;
+	background-color: #CCC;
+	background-image: url(images/header2.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	border-radius: 16px;
+}
+
+.menu {
+	height: 100px;
+	background-color: #2d045b;
+	background-image: linear-gradient(to bottom, rgba(47, 2, 68, 0.918), black);
+	border-radius: 16px;
+}
+
+.nav {
+	width: 800px;
+	background: #2d045b;
+	background-image: linear-gradient(to bottom, rgba(47, 2, 68, 0.918), black);
+	height: 100px;
+	margin-bottom: -100px;
+	opacity: 0.5;
+}
+
+.nav ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	position: absolute;
+	margin-left: 50px;
+}
+
+.nav ul li {
+	float: left;
+	margin-top: 25px;
+}
+
+.nav ul li a {
+	width: 150px;
+	color: gold;
+	display: block;
+	text-decoration: none;
+	font-size: 30px;
+	text-align: center;
+	padding: 10px;
+	border-radius: 10px;
+	margin-left: 260px;
+}
+
+.nav ul li a:hover {
+	background: #725c03;
+	transition: 0.6s;
+}
+
+.nav ul li ul li {
+	display: none;
+	text-align: center;
+	position: relative;
+	right: 18%;
+}
+
+.nav ul li:hover ul li {
+	display: block;
+}
+
+.mainbody {
+	margin: 0 auto;
+	width: 640px;
+}
+
+.footer {
+	background-color: #2d045b;
+	background-image: linear-gradient(to top, rgba(47, 2, 68, 0.918), black);
+	border-radius: 16px;
+	clear: both;
+	height: 100px;
+	text-align: right;
+}
+
+.poster {
+	height: 98px;
+	width: 105px;
+}
